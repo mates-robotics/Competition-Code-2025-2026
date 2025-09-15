@@ -3,7 +3,7 @@ name: Cleanup Old Artifacts
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # Every day at midnight
+    - cron: '0 0 * * 0' # Every Sunday at midnight
 
 jobs:
   remove-old-artifacts:
