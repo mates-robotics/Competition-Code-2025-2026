@@ -15,13 +15,13 @@ The remote repository consists of two main branches (independent lines of develo
 ## Creating your own OpModes
 
 There are two main types of OpModes and movement programs: RobotAuto and RobotTeleOp: one is for the
-autonomous period and one is for the tele-op period. Both files have special attributes that are
+autonomous period and one is for the tele-op period. Both files have special annotations that are
 needed for functionality:
-- RobotAuto files uses a @Autonomous(name, group) attribute.
-- RobotTeleOp files use a @TeleOp(name, group) attribute.
+- RobotAuto files uses a @Autonomous(name, group) annotation.
+- RobotTeleOp files use a @TeleOp(name, group) annotation.
 
-Enabling and disabling OpModes is done with the @Disabled attribute. If this appears, this file
-will not be shown as an available OpMode. Comment out or delete this attribute to enable.
+Enabling and disabling OpModes is done with the @Disabled annotations. If this appears, this file
+will not be shown as an available OpMode. Comment out or delete this annotation to enable.
 
 ### Naming of Samples
 
